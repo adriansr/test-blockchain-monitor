@@ -20,7 +20,7 @@ import (
 
 var (
 	flagNodeAddress   = flag.String("node", "wss://localhost", "Address to connect to")
-	flagServerAddress = flag.String("http-serve", "localhost:8989", "Address for local HTTP server")
+	flagServerAddress = flag.String("http-serve", "0.0.0.0:8989", "Address for local HTTP server")
 	flagTimeout       = flag.Duration("timeout", time.Second*15, "default i/o timeout")
 )
 
