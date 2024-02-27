@@ -118,3 +118,6 @@ for example by using the information in [this repo.](https://github.com/ottersca
 
 Also the way the "metrics" are exposed, via prometheus endpoint, is possibly
 not useful for a security use case, but it was simpler to implement.
+
+Testing is also missing everywhere.
+
